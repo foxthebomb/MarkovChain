@@ -8,4 +8,4 @@ JS-based Markov Chain Generator for use on a webpage
 * Radio Group 'level' that sets length of n-gram frame
 
 ## Sources
-Inspired by @[CodingTrain]'s Markov Chain Generation Tutorial
+Inspired by @[CodingTrain](https://github.com/CodingTrain)
