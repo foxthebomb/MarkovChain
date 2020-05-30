@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167966897-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167966897-1');
+</script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="noscroll">
+<div class="pageContents center-text" id="pageContents">
+<p>Input Text:</p>
+<textarea id="input" rows="10" cols="80">
+</textarea>
+<br>
+Set level of cohesion:
+<br>
+<input type="radio" id="1" name="level" value="1">
+<label for="1">1</label>
+<input type="radio" id="2" name="level" value="2">
+<label for="2">2</label>
+<input type="radio" id="3" name="level" value="3" checked>
+<label for="3">3</label>
+<input type="radio" id="4" name="level" value="4">
+<label for="4">4</label>
+<input type="radio" id="5" name="level" value="5">
+<label for="5">5</label>
+<input type="radio" id="6" name="level" value="6">
+<label for="6">6</label>
+<br>
+<button onclick="reset()">Reset</button>
+<button onclick="generate()">Generate</button>
+<p>Output Text:</p>
+<textarea id="output" rows="10" cols="80">
+</textarea>
+</div>
+<script src="scripts/markov.js">
+</script>
+</body>
+</html>
